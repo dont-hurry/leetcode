@@ -29,6 +29,10 @@
 
 ## Optimizations
 
+- 經過優化後的 disjoint-set data structure, 其 find 與 union 操作的 amortize time complexity 為 `O(α(n))`, 接近常數時間
+  - `α`: inverse Ackermann function
+- 來源: [Wikipedia](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)
+
 ### Find with path compression
 
 ```js
