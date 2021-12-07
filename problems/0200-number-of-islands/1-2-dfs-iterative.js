@@ -28,7 +28,7 @@ var numIslands = function (grid) {
   // n: the number of columns
   let m = grid.length;
   let n = grid[0].length;
-  let hasVisited = new Array(m).fill(null).map(() => new Array(n).fill(false));
+  let hasVisited = new Array(m).fill().map(() => new Array(n).fill(false));
   let numberOfIslands = 0;
 
   for (let row = 0; row < m; row++) {
