@@ -19,8 +19,7 @@
   - Time complexity: `O(m * n)`
   - Space complexity: `O(min(m, n))`
 - Disjoint set
-  - Time complexity: `O(m * n)`
-    - 經過優化後的 disjoint-set data structure, 其 find 與 union 操作的 amortize time complexity 為 `O(α(n))`, 接近常數時間
+  - Time complexity: `O(m * n * α(n))`
   - Space complexity: `O(m * n)`
 
 Notations:
