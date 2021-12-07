@@ -1,4 +1,4 @@
-# Max Area of Island
+# 695. Max Area of Island
 
 - [Description](https://leetcode.com/problems/max-area-of-island/)
 - Difficulty: Medium
